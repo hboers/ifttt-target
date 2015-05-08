@@ -11,6 +11,12 @@ class WebhookController extends Controller {
 		$this->middleware('guest');
 	}
 
+	function getIndex(Request $request) 
+	{
+		return view('welcome');
+	}
+
+
 	function postHello(Request $request) 
 	{
 

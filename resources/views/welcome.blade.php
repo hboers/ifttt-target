@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Laravel</title>
+		<title>IFTTT - Target</title>
 		
 		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
@@ -31,8 +31,14 @@
 				font-size: 96px;
 				margin-bottom: 40px;
 			}
+			.subtitle a {
+				color: #B0BEC5;
+				text-decoration: none;
+				font-size: 48px;
+			}
 
 			.quote {
+				margin-top: 40px;
 				font-size: 24px;
 			}
 		</style>
@@ -40,7 +46,8 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
+				<div class="title">IFTTT Target</div>
+				<div class="subtitle"><a href="https://github.com/hboers/ifttt-target">cu@github</a></div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
 			</div>
 		</div>
